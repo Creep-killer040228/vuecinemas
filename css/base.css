@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --bg: #040d1f;
+    --white: #fff;
+    --black: #000;
+    --or: #ED8E00;
+    --lightor: #F18128;
+    
+}
+
+body {
+    background: var(--bg);
+    color: var(--white);
+}
