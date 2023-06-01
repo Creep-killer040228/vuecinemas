@@ -95,3 +95,21 @@
 .navbar__list-item-linc:hover::after {
     width: 100%;
 }
+
+@media screen and (max-width:768px) {
+    .navbar__wrap{
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .navbar__list-item{
+        padding: 20px 0;       
+    }
+    .navbar__list-item-linc::after{
+        bottom: -20px;
+    }
+}
+@media screen and (max-width:360px){
+    .navbar__list{
+        gap: 15px;
+    }
+} 
