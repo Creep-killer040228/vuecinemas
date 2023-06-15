@@ -32,5 +32,9 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 27px;
-    color: ;
+    color: #000000;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
 }
