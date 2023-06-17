@@ -1,0 +1,49 @@
+.series {
+    padding: 100px 0;
+}
+
+.grid__layout {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 192px;
+    gap: 30px;
+}
+
+.card:nth-child(1) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.card {
+    position: relative;
+    background: #232323CC;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.card img:nth-child(1) {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.card__boby {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 20px;
+}
+
+.icon {
+    font-size: 40px;
+}
+
+.card:hover {
+    background: #23232300;
+}
