@@ -41,9 +41,16 @@
 }
 
 .icon {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .card:hover {
     background: #23232300;
+}
+
+.card__boby-p {
+    font-family: var(--CB);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27px;
 }
